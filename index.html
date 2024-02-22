@@ -75,6 +75,25 @@
         var url = getRandomLogoUrl();
         document.getElementById('btnzap').href = url;
     </script>
+    <script>
+    var alternar = true;
+
+    function alternarTitulo() {
+        var tituloElemento = document.querySelector('h1');
+        
+        if (alternar) {
+            tituloElemento.innerHTML = "(1) Nova mensagem";
+        } else {
+            tituloElemento.innerHTML = "Mãe Maria";
+        }
+
+        alternar = !alternar;
+    }
+
+    // Chama a função para alternar o título a cada 3 segundos (3000 milissegundos)
+    setInterval(alternarTitulo, 3000);
+</script>
+
 </body>
 
 </html>
