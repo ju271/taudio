@@ -1,17 +1,33 @@
 body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
     background-image: url('https://postimg.cc/rK8x8Jf5');
     background-size: cover;
     background-repeat: no-repeat;
-    display:flex;
-    padding:0; margin:0; box-sizing:border-box;font-family: 'Work Sans', sans-serif; text-align:center
-    box-sizing:border-box
     /* Adicione outros estilos de fundo conforme necessário */
 }
 
+body * {
+    box-sizing: border-box;
+}
 
+header {
+    background: #444;
+    color: #aaa;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+/* Restante do seu CSS permanece inalterado */
 
-header{ background: #444;   color:#aaa; padding:20px; position:fixed; top: 0;left: 0;right: 0;margin:auto}
 
 
 .box-header{ background: #06AD51; overflow:hidden;color:#fff; padding:15px 5px; border-radius: 10px 10px 0 0}
