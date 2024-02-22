@@ -2,11 +2,11 @@ body {
     background-image: url('https://postimg.cc/rK8x8Jf5');
     background-size: cover;
     background-repeat: no-repeat;
+    display:flex;
+    padding:0; margin:0; box-sizing:border-box;font-family: 'Work Sans', sans-serif; text-align:center
+    box-sizing:border-box
     /* Adicione outros estilos de fundo conforme necessário */
 }
-    { display:flex;  }
-    {padding:0; margin:0; box-sizing:border-box;font-family: 'Work Sans', sans-serif; text-align:center}
-    *{box-sizing:border-box}
 
 
 
