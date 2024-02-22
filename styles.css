@@ -36,7 +36,7 @@ h1{margin:0; font-weight:400; font-size:20px; line-height:1em; }
 .box-img { width: 120px; height: 120px; border-radius:50%; border:solid 3px green; margin:20px 0 } 
 .box-img + p{margin-top:0; }
 p{line-height:1.2em; font-size:16px}
-footer{ position:fixed; bottom: 0; left: 0;right: 0; margin:auto; background: #ddd; font-size:13px; color:#999;padding:10px 20px;}
+footer{ position:fixed; bottom: 0; left: 0;right: 0; margin:auto; background: #363636; font-size:13px; color:#DCDCDC;padding:10px 20px;}
 
 #track{max-width:100%}
 #showtime{display:none}
